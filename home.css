@@ -1,0 +1,630 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    height: 20%;
+    padding-left: 5%;
+    width: 100%;
+    z-index: 1;
+    background-color: white;  
+}
+.mainLogo img{
+    height: 120px;
+    width: 290px;
+}
+.navbarContent{
+    width: 100%;
+    padding-left: 100px;
+    margin-left: 55%;
+}
+.navbarContent a button{
+    border: 0px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    background-color: rgb(35, 68, 158);
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    /* border-radius: 45px; */
+}
+.forBackground{
+    width: 60%;
+    height: 70%;
+    background: url(banner.jpg) no-repeat top center;
+    background-size: cover; 
+    padding: 20%;
+}
+.bannerDetails h1{
+    color: white;
+    font-size: 40px;
+    
+}
+.bannerDetails h2{
+    color: white;
+    font-size: 30px;
+}
+.bannerDetails p{
+    color: white;
+    font-size: 15px;
+}
+.bannerDetails img{
+    height: 220px;
+    width: 170px;
+}
+.bannerForm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form h3{
+    /* font-weight: bold; */
+    text-align: center;
+    padding-top: 30px;
+}
+.form{
+    background-color: rgba(227, 236, 237, 0.916);
+    border: 0px;
+    border-radius: 30px;
+}
+.form form{
+    /* text-align: center; */
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 30px;
+    margin-right: 9px;
+}
+.form input[type=text],input[type=email],input[type=tel]{
+    width: 380px;
+    height: 35px;
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+}
+.form input[name=captcha]{
+    width: 150px;
+}
+.Captcha{
+    display: flex;
+    justify-content: space-between;
+}
+.form button{
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(52, 61, 235);
+    width: 380px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.form button:hover{
+    /* transition: 3s; */
+    transition-delay: 4s;
+    background: linear-gradient(127deg, rgba(5,3,54,0.9718804920913884) 0%, rgba(8,131,50,1) 66%, rgba(9,9,121,1) 80%, rgba(0,212,255,1) 100%);
+}
+/* For Youtube Videos */
+.title{
+    display: flex;
+    margin-left: 45%;
+    margin-top: 40px;
+}
+.title img{
+    margin-top: 40px;
+    padding-left: 15px;
+    height: 44px;
+    width: 35px;
+}
+.title h3{
+    margin-top: 40px;
+    padding-left: 20px;
+    color: rgb(48, 90, 186);
+    font-size: 35px;
+}
+.title span{
+    color: rgb(214, 180, 56);
+}
+.myVids{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 15px;
+}
+.youTubeVids iframe{
+    border: 0px;
+    border-radius: 20px;
+    width: 450px;
+    height: 270px;
+}
+.youTubeVids h4{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(48, 90, 186);
+}
+/* OUR CORE SERVICES */
+.coreService{
+    background-color: rgb(191, 196, 209);
+    padding-bottom: 10px;
+}
+.ourService{
+    width: 60%;
+    display: flex;
+    padding-left: 40%;
+    margin-top: 40px;
+}
+.serviceTitle{
+    margin-top: 40px;
+    padding-left: 20px;
+    color: rgb(48, 90, 186);
+    font-size: 35px;
+}
+.serviceTitle span{
+    color: rgb(235, 209, 82);
+}
+.serviceImg img{
+    margin-top: 40px;
+    padding-left: 20px;
+    height: 44px;
+    width: 35px;
+}
+.OurserviceImages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+}
+/* For Image 1 */
+.ourImages1{
+    background-color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 80px;
+    border: 0px;
+    border-radius: 25px;
+    width: 45%;
+    
+}
+.ourImages1 h2{
+    color: rgb(48, 90, 186);
+    font-size: 35px;
+}
+.ourImages1 img{
+    width: 675px;
+    height: 500px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;   
+}
+.ourImages1 p{
+    text-align: justify;
+    font-size: 22px;
+    color: gray;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+.ourImages1 a{
+    /* width: 100px; */
+    margin-bottom: 20px;
+    background-color: rgba(229, 226, 60, 0.95);
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 17px 2px gray;
+}
+/* For image 2 */
+.ourImages a{
+    margin-bottom: 20px;
+    background-color: rgba(229, 226, 60, 0.95);
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 17px 2px gray;
+}
+.ourImages{
+    background-color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    border: 0px;
+    border-radius: 25px;
+    width: 45%;
+    
+}
+.ourImages h2{
+    color: rgb(48, 90, 186);
+    font-size: 35px;
+}
+.ourImages img{
+    width: 675px;
+    height: 500px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;   
+}
+.ourImages p{
+    text-align: justify;
+    font-size: 22px;
+    color: gray;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+/* Our images 3 */
+.ourImages2 a{
+    margin-bottom: 20px;
+    background-color: rgb(236, 236, 35);
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 17px 2px gray;
+}
+.ourImages2{
+    background-color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 75px;
+    border: 0px;
+    border-radius: 25px;
+    width: 45%;
+    
+}
+.ourImages2 h2{
+    color: rgb(48, 90, 186);
+    font-size: 35px;
+}
+.ourImages2 img{
+    width: 675px;
+    height: 500px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;   
+}
+.ourImages2 p{
+    text-align: justify;
+    font-size: 22px;
+    color: gray;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+.ourImages2 a{
+    margin-bottom: 20px;
+    background-color: rgb(236, 236, 35);
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+}
+/* Why PackShift */
+.chooseUs{
+    font-weight: bold;
+    padding-left: 39%;
+    font-size: 27px;
+}
+.myImages{
+    width: 1590px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.whyUsImg{
+    background-color: rgb(232, 227, 227);
+    width: 190px;
+    height: 180px;
+    border: 0px;
+    border-radius: 25px;
+    flex-basis: 20%;
+    margin: 2%;
+    box-shadow: 0px 0px 10px 2px #ccc;
+}
+.whyUsImg h3{
+    text-align: center;
+}
+.whyUsImg img{
+    padding-top: 10px;
+    padding-left: 100px;
+    align-items: center;
+    height: 100px;
+}
+/* OUR ACHIEVEMENTS */
+.ourAchieve{
+    background-color: rgb(50, 99, 199);
+    margin-top: 40px;
+}
+.achieveTitle{
+    margin-top: 40px;
+    color: rgb(241, 241, 242);
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.ourAchievement{
+    width: 60%;
+    display: flex;
+    padding-left: 35%;
+    margin-top: 35px;
+}
+.AchieveImg img{
+    margin-top: 40px;
+    padding-left: 20px;
+    height: 40px;
+    width: 35px;
+}
+.achievement h2{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.MyAchievements{
+    display: flex;
+    align-items: center;
+    width: 1620px;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin: auto;
+}
+.achevementImg{
+    flex-basis: 10%;
+    margin-left: 6%;
+    margin-top: 3%;
+}
+.achevementImg img{
+    width: 50px;
+}
+.achevementImg p{
+    color: whitesmoke;
+    font-size: 25px;
+    padding-right: 4%;
+    margin-right: 3%;
+    /* text-align: center; */
+}
+.achieveText p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    /* padding-left: 20px; */
+}
+/* HAPPY CUSTOMERS */
+.happyCust{
+    width: 60%;
+    display: flex;
+    padding-left: 40%;
+    margin-top: 40px;
+}
+.happyImg{
+    margin-top: 50px;
+    /* padding-left: 5px; */
+}
+.happyImg img{
+    height: 40px;
+    width: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.happyTitle{
+    color: rgb(48, 90, 186);
+    font-size: 35px;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+.happyTitle span{
+    color: rgb(235, 209, 82);
+}
+.happyCustomer{
+    margin-left: 20px;
+}
+.happyCustRev{
+    background-color: rgb(50, 99, 199);
+    padding: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 850px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.happyCustImg{
+    background-color: rgb(225, 201, 66);
+    width: 15%;
+    height: 250px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+.happyCustImg img{
+    /* padding-right: 200px; */
+    /* margin-right: 90%; */
+    flex-basis: 23%;
+    margin-left: 1%;
+    padding-left: 40px;
+    padding-top: 20px;
+    /* z-index: 1; */
+    /* padding-bottom: 10px; */
+}
+.happyCustImg p{
+    color: white;
+    padding-top: 10px;
+    /* padding-left: 60px; */
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.ourClients{
+    background-color: #dadde0;
+    margin-top: 90px;
+}
+.clients_logo{
+    display: flex;
+    width: 1570px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.company_logo{
+    flex-basis: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 4%;
+}
+.company_logo img{
+    border-radius: 20px;
+    width: 230px;
+    height: 140px;
+}
+.Our_Branches{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+}
+.Address_1{
+    background-color: #eeeff0;
+    border-radius: 25px;
+    padding: 90px;
+}
+.Address_1 h5{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Address_1 p{
+    font-size: 20px;
+    text-align: center;
+}
+.Address_2{
+    background-color: #eeeff0;
+    border-radius: 25px;
+    padding: 90px;
+    margin-left: 40px;
+}
+.Address_2 h5{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Address_2 p{
+    font-size: 20px;
+    text-align: center;
+}
+.pack{
+    width: 60%;
+    display: flex;
+    padding-left: 32%;
+    margin-top: 40px;
+}
+.packImg{
+    margin-top: 50px;
+    /* padding-left: 5px; */
+}
+
+.packImg img{
+    height: 40px;
+    width: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.packTitle{
+    color: rgb(48, 90, 186);
+    font-size: 35px;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+.packTitle span{
+    color: rgb(235, 209, 82);
+}
+/* PACKSHIFTS PACKERS & MOVERS */
+.packShift{
+    background-color: #eeeff0;
+}
+.packers_movers{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.packers{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 80px;
+}
+.packers ul{
+    font-size: 20px;
+}
+.secondli li{
+    list-style: none;
+    
+}
+.mainli{
+    color: black;
+    list-style: none;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+/* FOOTER END */
+.footerEnd{
+    background-color: rgb(48, 90, 186);
+    padding: 40px;
+}
+.myFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.termsCondition a{
+    color: white;
+    padding-right: 50px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.facebook_youtube{
+    padding-left: 50px;
+}
+.footerHr{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid white;
+}
+.Rights{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+}
